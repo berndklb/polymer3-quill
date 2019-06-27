@@ -1,5 +1,4 @@
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
-import '@polymer/iron-icons/iron-icons.js';
 import '../polymer3-quill.js';
 
 class DemoElement extends PolymerElement {
@@ -13,7 +12,7 @@ class DemoElement extends PolymerElement {
           width: 100%;          
         }
       </style>
-      <iron-icon icon="star"></iron-icon>
+      <polymer3-quill></polymer3-quill>
     `;
   }
 }

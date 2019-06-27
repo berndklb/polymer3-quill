@@ -1,7 +1,7 @@
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 import { Quill } from 'quill/quill.js';
 
-class IconToggle extends PolymerElement {
+class Polymer3Quill extends PolymerElement {
   static get template() {
     return html`
       <style>
@@ -24,4 +24,4 @@ class IconToggle extends PolymerElement {
   }
 }
 
-customElements.define('icon-toggle', IconToggle);
+customElements.define('polymer3-quill', Polymer3Quill);
